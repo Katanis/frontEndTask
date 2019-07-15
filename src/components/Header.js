@@ -17,11 +17,11 @@ export class Header extends React.Component {
           <li className="nav-item"><a href="#about">ABOUT ME</a></li>
           <li className="nav-item dropdown"><a href="#works">WORKS</a>
             <ul className="submenu">
-              <li className="sumbenu-item"><a href="#ALL">ALL</a></li>
-              <li className="sumbenu-item"><a href="#ALL">GRAPHIC</a></li>
-              <li className="sumbenu-item"><a href="#ALL">DESIGN</a></li>
-              <li className="sumbenu-item"><a href="#ALL">LOGO</a></li>
-              <li className="sumbenu-item"><a href="#ALL">ALL</a></li>
+              <li><a href="#ALL">ALL</a></li>
+              <li><a href="#ALL">GRAPHIC</a></li>
+              <li><a href="#ALL">DESIGN</a></li>
+              <li><a href="#ALL">LOGO</a></li>
+              <li><a href="#ALL">ALL</a></li>
             </ul>
           </li>
           <li className="nav-item"><a href="#service">SERVICE</a></li>

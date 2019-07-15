@@ -1,20 +1,19 @@
 import React from 'react';
 import './App.css';
 import { Header } from './components/Header';
-import { FirstContent } from './components/FirstContent';
+import { Welcome } from './components/Welcome';
 import { SecondContent } from './components/SecondContent';
 import { Part2_1 } from './components/Part2_1';
 import { Part2_2 } from './components/Part2_2';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
-
 function App() {
   return (
     <div className="App">
       <Header />
       <div className="firstParagraph">
-        <FirstContent />
+        <Welcome />
         <SecondContent />
       </div>
       <div className="secondParagraph">
@@ -22,13 +21,11 @@ function App() {
         <Part2_2 />
       </div>
       <div>
-        <Contact/>
+        <Contact />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
-
-
 
 export default App;

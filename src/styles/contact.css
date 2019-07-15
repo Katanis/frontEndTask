@@ -1,0 +1,33 @@
+.container-col6-xl {
+  width: 50%;
+  padding-right: 3rem;
+}
+
+.bold900 {
+  font-weight: 900;
+}
+
+.black-line {
+  color: black;
+  background-color: black;
+  border: 0;
+}
+
+.black {
+  color: black;
+}
+.gray {
+  color: gray;
+}
+
+.container {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.inputContainer {
+  padding-top: 5.3rem;
+  width: 50%;
+  display: grid;
+}

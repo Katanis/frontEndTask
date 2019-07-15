@@ -1,35 +1,10 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.Nav-bar{
+.Nav-bar {
   list-style-type: none;
   padding: 0;
   overflow: hidden;
 }
 
-.Nav-bar li:hover .submenu{
+.Nav-bar li:hover .submenu {
   display: block;
   max-height: 100%;
 }
@@ -37,10 +12,6 @@
 .submenu a {
   background-color: black;
   font-size: 3vw;
-}
-
-.sumbenu-item{
-  font-size: 1vw;
 }
 
 .submenu {
@@ -54,7 +25,11 @@
   list-style-type: none;
   overflow: hidden;
   max-height: 0;
-  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.submenu li {
+  font-size: 1vw;
 }
 
 /* hover behaviour for links inside .submenu */
@@ -62,75 +37,72 @@
   background-color: white;
   border: 2px black;
   text-decoration-color: black;
-  
 }
 
-.secondParagraph{
+.secondParagraph {
   background-color: rgb(70, 139, 204);
   display: flex;
   margin-bottom: 3rem;
 }
 
-.header{
+.header {
   padding-top: 1px;
   padding-bottom: 1rem;
   background-color: rgb(70, 139, 204);
   padding-left: 3rem;
   padding-right: 3rem;
-
 }
 
-*, ::after, ::before {
-  /* box-sizing: border-box; */
-}
-
-h1{
+h1 {
   color: white;
   font-weight: 700;
 }
-.nav-item-left{
+
+h4 {
+  text-align: left;
+}
+.nav-item-left {
   float: left;
 }
 
-.nav-item{
+.nav-item {
   float: right;
 }
 
-.nav-item-first{
+.nav-item-first {
   float: left;
 }
 
-.text1{
-  color:white;
+.text1 {
+  color: white;
   max-width: 90%;
   font-weight: 100;
 }
 
-.h4Black{
-  color:black;
+.h4Black {
+  color: black;
   font-weight: 700;
 }
 
-.nav-item-first a{
-
+.nav-item-first a {
   padding: 8px;
   text-align: center;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.637);
   font-size: 1.2vw;
-  border-right: 1px solid rgba(255, 255, 255, 0.637);;
+  border-right: 1px solid rgba(255, 255, 255, 0.637);
 }
 
-.nav-item-first-last a{
+.nav-item-first-last a {
   padding: 8px;
   text-align: center;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.637);
   font-size: 1.2vw;
-  border-right:none !important;
+  border-right: none !important;
 }
 
-hr{
+hr {
   width: 3rem;
   color: white;
   height: 0.4rem;
@@ -139,43 +111,29 @@ hr{
   margin: 0px;
 }
 
-.btn{
+.btn {
   bottom: 3rem;
   position: absolute;
   right: 3rem;
   float: right;
   cursor: pointer;
   margin-top: 4rem;
-  background-color:  rgb(70, 139, 204);
+  background-color: rgb(70, 139, 204);
   color: white;
   padding: 3px 3px;
   border: 3px solid white; /* Green */
   font-size: 1.5vw;
   font-weight: 700;
   display: inline-block;
-
-}
-.div1{
-  position: relative;
-  width: 30%;
-  display: block;
-  text-align: left;
-  margin-left: 3rem;
-  background-color:  rgb(70, 139, 204);
-  padding-top: 2vw;
-  padding-left: 3vw;
-  padding-right: 3vw;
-  padding-bottom: 3vw;
 }
 
-.pgray{
+.pgray {
   color: rgb(140, 140, 140);
   text-align: left;
 }
 
-.div2-1{
-  
-  background-image: url('https://careerfoundry.com/en/blog/uploads/difference-between-ux-ui-ux-ui-min.png');
+.div2-1 {
+  background-image: url("https://careerfoundry.com/en/blog/uploads/difference-between-ux-ui-ux-ui-min.png");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -185,34 +143,32 @@ hr{
   margin-bottom: 0px;
 }
 
-.div2-2{
+.div2-2 {
   height: inherit;
   display: flexbox;
-  background-color: rgb(215, 215, 215);;
+  background-color: rgb(215, 215, 215);
   background-size: 100%;
   padding-top: 2vw;
   padding-left: 3vw;
   padding-right: 3vw;
   padding-bottom: 3vw;
-
 }
 
-.div2{
-  display:grid !important;
+.div2 {
+  display: grid !important;
   width: 70%;
   display: block;
-  background-color:  rgb(70, 139, 204);
+  background-color: rgb(70, 139, 204);
   margin-left: 3rem;
-  
 }
-.firstParagraph{
+.firstParagraph {
   display: flex;
-  
-  margin-right: 3REM;
-  margin-top: 3REM;
+
+  margin-right: 3rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
-.nav-item-left a{
+.nav-item-left a {
   margin-top: 0px;
   margin-left: 0px;
   display: block;
@@ -223,11 +179,11 @@ hr{
   font-size: 3vw;
 }
 
-.bigger{
+.bigger {
   font-weight: 900;
 }
 
-.nav-item a{
+.nav-item a {
   margin-top: 0px;
   display: block;
   color: white;
@@ -238,43 +194,37 @@ hr{
   font-weight: 700;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
   color: black;
 }
 
-.footerNavBar{
+.footerNavBar {
   float: right;
   display: flex;
   list-style-type: none;
-
 }
 
-.footerNavBar li a{
+.footerNavBar li a {
   color: white;
   text-decoration: none;
   font-weight: 700;
   padding: 4px;
 }
 
-.footerContainer{
-  background-color: #1C2023;
+.footerContainer {
+  background-color: #1c2023;
   padding-right: 3rem;
   padding-left: 3rem;
-  padding-top: 2rem; 
+  padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
-.copywrites{
+.copywrites {
   text-align: right;
 }
 
-#footerP{
-  text-align: left;
-  max-width: 50%;
-  color: #686C6F
-}
 
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 
 @media screen and (max-width: 500px) {
   .header a {
@@ -283,21 +233,21 @@ hr{
     text-align: left;
     width: 100%;
   }
-  .nav-item{
+  .nav-item {
     float: none;
   }
-  .nav-item-left{
+  .nav-item-left {
     float: none;
   }
 
-  .nav-item-first a{
+  .nav-item-first a {
     display: grid;
     text-align: center;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.637);
     font-size: 1.2vw;
   }
-  .div1{
+  .div1 {
     width: 100%;
     padding-top: 2vw;
     padding-bottom: 3vw;
@@ -307,31 +257,23 @@ hr{
     margin-right: 1.5rem;
     position: unset;
     display: table-cell;
-    
   }
-  .firstParagraph{
+  .firstParagraph {
     display: inline-block;
     margin-right: 0px;
-    margin-top: 3REM;
+    margin-top: 3rem;
     margin-bottom: 2rem;
   }
 
-  .div2{
+  .div2 {
     width: 100%;
-    background-color:  rgb(70, 139, 204);
+    background-color: rgb(70, 139, 204);
     margin-left: 0px;
     margin-top: 2rem;
     margin-right: 0px;
-    
-  }
-  .text1{
-    color:white;
-    max-width: 50%;
-    font-weight: 100;
-
   }
 
-  .div2-1{
+  .div2-1 {
     height: 50vw;
   }
 }

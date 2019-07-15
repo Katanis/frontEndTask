@@ -1,13 +1,13 @@
 import React from 'react';
-import '../part2_1.css';
+import '../styles/customList.css';
 
-export class CustomList extends React.Component{
-  render(){
-    return(
-      <div className="a2-2-1">
+export class CustomList extends React.Component {
+  render() {
+    return (
+      <div className="list">
         <h5>Custom List</h5>
-        <p className="t2">Some heading</p>
-        <li className="t3">Item 1</li>
+        <p className="gray">Some heading</p>
+        <li className="underline-black-border-bottom">Item 1</li>
       </div>
     );
   }
