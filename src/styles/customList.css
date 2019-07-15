@@ -9,3 +9,10 @@
   list-style-type: none;
   border-bottom: 1px solid black;
 }
+
+@media screen and (max-width: 500px) {
+  .list {
+    padding-left: 1rem;
+    width: 100%;
+  }
+}

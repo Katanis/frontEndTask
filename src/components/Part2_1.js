@@ -4,7 +4,7 @@ import '../part2_1.css';
 class Part2_1 extends React.Component {
   render() {
     return (
-      <div className="a1">
+      <div className="containerV2">
         <h4>WEB DEVELOPMENT</h4>
         <p>
           Phasellus interdum aliquam eros, vitae vestibulum elit malesuada ut.

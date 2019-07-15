@@ -31,3 +31,21 @@
   width: 50%;
   display: grid;
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    display: block;
+  }
+
+  .container-col6-xl {
+    width: 100%;
+  }
+
+  .inputContainer {
+    padding-top: 1rem;
+    width: 100%;
+    display: grid;
+  }
+}

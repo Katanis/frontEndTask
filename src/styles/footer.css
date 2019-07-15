@@ -2,3 +2,42 @@
   max-width: 50%;
   color: #686c6f;
 }
+
+.footerContainer {
+  background-color: #1c2023;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footerNavBar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 4px;
+}
+
+.footerNavBar {
+  float: right;
+  display: flex;
+  list-style-type: none;
+}
+.copywrites {
+  text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+  .footerNavBar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 4px;
+  }
+
+  .footerNavBar {
+    float: right;
+    display: block;
+    list-style-type: none;
+  }
+}

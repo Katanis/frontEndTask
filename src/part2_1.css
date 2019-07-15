@@ -15,14 +15,14 @@ p {
   max-width: 100%;
 }
 
-div .a1 {
+.containerV2 {
   padding-left: 3rem;
   padding-top: 3rem;
   padding-right: 3rem;
   width: 30%;
 }
 
-div .a2 {
+.a2 {
   padding-top: 3rem;
   padding-right: 3rem;
   margin-bottom: 3rem;
@@ -109,4 +109,42 @@ input:focus {
 
 #submit:hover {
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 500px) {
+  .containerV2 {
+    padding-left: 1rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    margin-right: 1rem;
+    width: 100%;
+  }
+  p {
+    color: white;
+    font-weight: 200;
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .a2-2 {
+    display: block;
+    width: 100%;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 0px;
+  }
+
+  .a2-1{
+    margin-left: 1rem;
+    padding-left: 0px;
+  }
+
+  .a2-2-2{
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
 }

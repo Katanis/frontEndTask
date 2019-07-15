@@ -198,32 +198,6 @@ hr {
   color: black;
 }
 
-.footerNavBar {
-  float: right;
-  display: flex;
-  list-style-type: none;
-}
-
-.footerNavBar li a {
-  color: white;
-  text-decoration: none;
-  font-weight: 700;
-  padding: 4px;
-}
-
-.footerContainer {
-  background-color: #1c2023;
-  padding-right: 3rem;
-  padding-left: 3rem;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-}
-
-.copywrites {
-  text-align: right;
-}
-
-
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 
 @media screen and (max-width: 500px) {
@@ -246,6 +220,7 @@ hr {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.637);
     font-size: 1.2vw;
+    padding-right: 0px;
   }
   .div1 {
     width: 100%;
@@ -275,5 +250,11 @@ hr {
 
   .div2-1 {
     height: 50vw;
+  }
+
+  .secondParagraph {
+    background-color: rgb(70, 139, 204);
+    display: block;
+    margin-bottom: 3rem;
   }
 }
