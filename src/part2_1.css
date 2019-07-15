@@ -1,0 +1,149 @@
+h4{
+  color: white;
+  font-weight: 700;
+}
+
+ul{
+  list-style-type: none;
+}
+.t3{
+  list-style-type: none;
+  border-bottom: 1px solid black;
+}
+
+p{
+  color:white;
+  font-weight: 200;
+  text-align: left;
+  max-width: 100%;
+}
+
+div .a1{
+  padding-left: 3rem;
+  padding-top: 3rem;
+  padding-right: 3rem;
+  width: 30%;
+}
+
+div .a2{
+  padding-top: 3rem;
+  padding-right: 3rem;
+  margin-bottom: 3rem;
+
+}
+
+.a2-1{
+  text-align: left;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.t1{
+  color:black;
+  font-weight: 700;
+}
+
+.t2{
+  color:gray;
+
+}
+
+.a2-2-1{
+  text-align: left;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  width: 50%;
+}
+
+.a2-2-2{
+  width: 50%;
+  padding-right: 1rem;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+.a2-2{
+  display: flex;
+  padding-top: 1rem;
+  background-color: white;
+}
+
+h1.Contact-p{
+  text-align: left;
+  color:black;
+  font-weight: 900;
+}
+
+hr.Contact{
+  color:black;
+  background-color: black;
+  border: 0;
+}
+
+p.Contact{
+  color:gray;
+  text-align: left;
+}
+
+div.Contact{
+  width: 50%;
+  padding-right: 3rem;
+}
+
+.c1{
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.inputContainer{
+  padding-top: 5.3rem;
+  width: 50%;
+  display: grid;
+}
+
+.inputP{
+  color:black;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.inputEmail{
+  color:black;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.inputMessage{
+  color:black;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+input{
+  border: 2px solid lightgray;
+  box-shadow: none;
+  float: left;
+  width: 60%;
+}
+
+input:focus{
+  border: 2px solid black;
+}
+
+#message{
+  height: 5rem;
+}
+
+#submit{
+  background-color: white;
+  border: 3px solid rgb(70, 139, 204);;
+  color: rgb(70, 139, 204);;
+  font-weight: 900;
+  margin-top: 1rem;
+  width: 4rem;
+}
+
+#submit:hover{
+  cursor: pointer;
+}
