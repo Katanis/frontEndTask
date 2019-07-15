@@ -1,8 +1,8 @@
 import React from 'react';
-import { CustomList } from './CustomList';
+import CustomList from './CustomList';
 import '../part2_1.css';
 
-export class Part2_2 extends React.Component {
+class Part2_2 extends React.Component {
   render() {
     return (
       <div className="a2">
@@ -26,3 +26,5 @@ export class Part2_2 extends React.Component {
     );
   }
 }
+
+export default Part2_2;

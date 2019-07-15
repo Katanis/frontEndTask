@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/welcome.css';
+import '../styles/section.css';
 
-export class Welcome extends React.Component {
+class Section extends React.Component {
   render() {
     return (
       <div className="welcome-container">
@@ -20,3 +20,5 @@ export class Welcome extends React.Component {
     );
   }
 }
+
+export default Section;

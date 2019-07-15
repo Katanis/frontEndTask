@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class SecondContent extends React.Component {
+class SecondContent extends React.Component {
   render() {
     return (
       <div className="div2">
@@ -20,3 +20,5 @@ export class SecondContent extends React.Component {
     );
   }
 }
+
+export default SecondContent;

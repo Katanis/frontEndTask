@@ -1,7 +1,7 @@
 import React from 'react';
 import '../part2_1.css';
 
-export class Part2_1 extends React.Component {
+class Part2_1 extends React.Component {
   render() {
     return (
       <div className="a1">
@@ -20,3 +20,5 @@ export class Part2_1 extends React.Component {
     );
   }
 }
+
+export default Part2_1;
