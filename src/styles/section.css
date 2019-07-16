@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 500px) {
   .welcome-container {
+    max-width: 100%;
     position: relative;
     width: 100%;
     display: block;
@@ -27,7 +28,7 @@
     background-color: rgb(70, 139, 204);
     padding-top: 2vw;
     padding-left: 3vw;
-    padding-right: 3vw;
+    padding-right: 0px;
     padding-bottom: 3vw;
   }
 }
