@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+.App{
+  max-width: 100%;
+}
+
 .Nav-bar li:hover .submenu {
   display: block;
   max-height: 100%;
@@ -206,6 +210,11 @@ hr {
     display: block;
     text-align: left;
     width: 100%;
+  }
+
+  .header{
+    width: 100%;
+    padding-right: 1rem;
   }
   .nav-item {
     float: none;
